@@ -228,7 +228,7 @@ def run(routes, host = '0.0.0.0', port = 8080):
 # App
 
 ops = {
-    'buy':  operator.le,
+    'buy': operator.le,
     'sell': operator.ge,
 }
 
